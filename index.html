@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blurred Background Papup</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
       <h1 class="heading">Welcome to Our Website</h1>
-      <button class="btn">Click to Join</button>
+      <button class="btn" id="btn">Click to Join</button>
     </div>
-    <div class="papup">
+    <div class="papup active">
       <h2>20% off offer</h2>
       <label for="email">Email</label>
       <input
@@ -19,10 +20,12 @@
         placeholder="Enter Your email"
         class="email"
       />
-      <button class="btn" id="btn">Join</button>
+      <button class="btn">Join</button>
       <div class="close">
         <span>X</span>
       </div>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
